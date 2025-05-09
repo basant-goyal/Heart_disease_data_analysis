@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Read the CSV file
-data = pd.read_csv(r"D:\documents\3rd sem\DVPD Lab\heart.csv") 
+data = pd.read_csv("heart.csv") 
 x = data['age'].values
 y = data['chol'].values
 
